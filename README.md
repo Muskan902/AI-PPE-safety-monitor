@@ -203,6 +203,16 @@ Working Prototype
 
 The current system supports worker detection, tracking, face identification, PPE compliance monitoring, violation logging, evidence generation, and dashboard visualization.
 
+## 📸 Demo
+
+### PPE Violation Detection — Worker 1
+
+![Worker 1 PPE Violation](demo1.png)
+
+### PPE Violation Detection — Worker 2
+
+![Worker 2 PPE Violation](demo2.png)
+
 👩‍💻 Author
 
 Muskan Meena
