@@ -56,7 +56,7 @@ Violation Detection
  ↓               ↓               ↓
 CSV Log     Evidence Image   Dashboard
 
-
+---
 #🛠️ Technologies Used
 Technology	Purpose
 Python	Main programming language
@@ -68,7 +68,7 @@ TensorFlow / Keras	Deep learning backend
 Pandas	Data processing
 Streamlit	Monitoring dashboard
 
-
+---
 #📁 Project Structure
 AI-PPE-Safety-Monitor/
 │
@@ -90,7 +90,7 @@ AI-PPE-Safety-Monitor/
 faces/, violation_images/, videos, trained models, and generated logs are excluded from GitHub using .gitignore.
 
 
-
+---
 # Installation
 
 Clone the repository:
@@ -111,7 +111,7 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-
+---
 #▶️ Running the PPE Monitor
 Place your test video inside:
 
@@ -125,7 +125,7 @@ The processed video will be generated as:
 
 ppe_output.mp4
 
-
+---
 #📊 Running the Dashboard
 
 Start Streamlit:
@@ -134,7 +134,7 @@ streamlit run app.py
 
 Then open the local URL shown in the terminal.
 
-
+---
 #🆔 Worker Recognition
 
 Registered workers are stored locally as reference images.
@@ -152,7 +152,7 @@ If the similarity is insufficient, the system reports:
 Unknown
 
 This prevents unregistered workers from being incorrectly assigned to a known worker.
-
+---
 #🚨 Violation Logging
 
 When a worker is missing required PPE, the system records:
@@ -164,7 +164,7 @@ Evidence image
 
 Repeated violations are limited using a time-based cooldown to avoid generating hundreds of identical records from consecutive video frames.
 
-
+---
 #📸 Evidence
 
 The system saves images of detected violations in:
@@ -176,7 +176,7 @@ Violation information is stored in:
 violation_log.csv
 
 These generated files are intentionally excluded from the public repository.
-
+---
 #⚠️ Limitations
 Face recognition performance depends on image quality and camera angle.
 Faces that are too small, blurred, or obstructed may be classified as Unknown.
@@ -184,7 +184,7 @@ PPE detection depends on the quality and coverage of the training dataset.
 The system currently recognizes only workers whose reference images have been registered.
 Performance depends on available CPU/GPU resources.
 
-
+---
 #🔮 Future Improvements
 Real-time CCTV camera integration
 Database-based worker management
@@ -196,13 +196,13 @@ Real-time analytics
 Role-based safety monitoring
 Automatic safety reports
 
-
+---
 #📌 Project Status
 
 Working Prototype
 
 The current system supports worker detection, tracking, face identification, PPE compliance monitoring, violation logging, evidence generation, and dashboard visualization.
-
+---
 ## 📸 Demo
 
 ### PPE Violation Detection — Worker 1
@@ -212,7 +212,7 @@ The current system supports worker detection, tracking, face identification, PPE
 ### PPE Violation Detection — Worker 2
 
 ![Worker 2 PPE Violation](demo2.png)
-
+---
 👩‍💻 Author
 
 Muskan Meena
