@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Face data
+faces/
+
+# Generated violation evidence
+violation_images/
+
+# Logs
+*.csv
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Trained model files
+*.pt
+
+# YOLO generated files
+runs/
+
+# Dataset
+datasets/
+
+# Test/generated images
+test_images/
+test.jpg
+visualized.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
