@@ -57,7 +57,7 @@ Violation Detection
 CSV Log     Evidence Image   Dashboard
 
 ---
-#🛠️ Technologies Used
+##🛠️ Technologies Used
 Technology	Purpose
 Python	Main programming language
 YOLO	Object and PPE detection
@@ -69,7 +69,7 @@ Pandas	Data processing
 Streamlit	Monitoring dashboard
 
 ---
-#📁 Project Structure
+## 📁 Project Structure
 AI-PPE-Safety-Monitor/
 │
 ├── app.py
@@ -91,7 +91,7 @@ faces/, violation_images/, videos, trained models, and generated logs are exclud
 
 
 ---
-# Installation
+##  Installation
 
 Clone the repository:
 
