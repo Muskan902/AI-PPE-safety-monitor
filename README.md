@@ -57,7 +57,7 @@ Violation Detection
 CSV Log     Evidence Image   Dashboard
 
 ---
-##🛠️ Technologies Used
+**🛠️ Technologies Used**
 Technology	Purpose
 Python	Main programming language
 YOLO	Object and PPE detection
