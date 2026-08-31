@@ -57,39 +57,33 @@ Violation Detection
 CSV Log     Evidence Image   Dashboard
 
 ---
-**🛠️ Technologies Used**
-Technology	Purpose
-Python	Main programming language
-YOLO	Object and PPE detection
-ByteTrack	Worker tracking
-DeepFace	Face recognition
-OpenCV	Image/video processing
-TensorFlow / Keras	Deep learning backend
-Pandas	Data processing
-Streamlit	Monitoring dashboard
 
----
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Main programming language |
+| YOLO | Object and PPE detection |
+| ByteTrack | Worker tracking |
+| DeepFace | Face recognition |
+| OpenCV | Image/video processing |
+| TensorFlow / Keras | Deep learning backend |
+| Pandas | Data processing |
+| Streamlit | Monitoring dashboard |
+
+
 ## 📁 Project Structure
-AI-PPE-Safety-Monitor/
-│
-├── app.py
-├── ppe_monitor.py
-├── ppe_compliance.py
-├── violation_test.py
-├── summary.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── models/
-├── faces/
-├── test_video/
-├── violation_images/
-└── violation_log.csv
 
-faces/, violation_images/, videos, trained models, and generated logs are excluded from GitHub using .gitignore.
-
-
+- app.py
+- ppe_monitor.py
+- ppe_compliance.py
+- face_recognise.py
+- live_ppe_monitor.py
+- violation_test.py
+- summary.py
+- requirements.txt
+- README.md
+- .gitignore
 ---
 ##  Installation
 
