@@ -55,6 +55,7 @@ Violation Detection
  ┌───────────────┬───────────────┐
  ↓               ↓               ↓
 CSV Log     Evidence Image   Dashboard
+```
 
 ---
 
