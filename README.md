@@ -1,6 +1,6 @@
 AI-PPE-Safety-Monitor
 
-Create/open README.md and paste this:
+
 
 # 🦺 AI PPE Safety Monitor
 
